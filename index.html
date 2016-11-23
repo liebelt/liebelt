@@ -2,24 +2,21 @@
 
 <html>
 	<head>
-		<title>思思小站</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<title>思思小站(liebelt.github.io)</title>
+		<meta charset="utf-8">
 	</head>
+	<script type="text/javascript">
+		function click1 () {
+			document.getElementById("pg1").innerHTML="飞吻！"
+		}
+	</script>
+	
 	<body>
+		
 		<h1>这是思思第一个首页</h1><hr />
-		<p>希望有一天你能看到</p>
+		<div class="heart">
+			<p id="pg1">希望有一天你能看到</p>
+		</div>
+		<button type='button' onclick='click1();' >Click me!</button>
 	</body>
 </html>
