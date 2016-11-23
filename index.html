@@ -12,12 +12,19 @@
 		<div class="heart">
 			<p id="p1"></p>
 		</div>
+		<p id="date"></p>
 		<button type='button' onclick='click1();' >Click me!</button>
 		<script src="js/actjs.js"></script>
 		<hr />
-		<script>document.write("现在时间："+Date())</script>
+		<!--显示时间-->
+		<script>
+			var x;
+			x=new Date();
+			document.getElementById("date").innerHTML="现在时间："+x;
+		</script>
+		<!--使用js修改内容-->
 		<script>document.getElementById("head1").innerHTML="这是思思第一个首页"</script>
 		<script>document.getElementById("p1").innerHTML="希望有一天你能看到"</script>
-//这一段不会被执行，开始尝试不断下一步，显示不同信息
+		
 	</body>
 </html>
