@@ -8,21 +8,18 @@
 		<script src="js/initjs.js"></script>
 	</head>
 	
-	<body>
+	<body onload="data()">
 		
 		<h1 id="head1"></h1><hr />
 		<div class="heart">
 			<p id="p1"></p>
 		</div>
-		<p id="date"></p>
+		<p id="date1"></p>
+		<p id="date2"></p>
 		<button type='button' onclick='click1();' >Click me!</button>
 		<hr />
 		<!--显示时间-->
-		<script>
-			var x;
-			x=new Date();
-			document.getElementById("date").innerHTML="现在时间："+x;
-		</script>
+
 		<!--使用js修改内容-->
 		<script>document.getElementById("head1").innerHTML="这是思思第一个首页"</script>
 		<script>document.getElementById("p1").innerHTML="希望有一天你能看到"</script>
