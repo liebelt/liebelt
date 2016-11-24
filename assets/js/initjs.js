@@ -25,3 +25,11 @@ function checknumber(i)
 	}
 	return i;
 }
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ed99df11c78954ff288e94f77b4766bb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
