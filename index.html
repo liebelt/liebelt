@@ -9,10 +9,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<!--留言板script-->
 
-		<!--留言板-->
 
-		<!--留言板结束-->
 	</head>
 	
 	<body>
@@ -384,7 +390,14 @@
 				</div>
 			</section>
  		-->
- 		
+ 			<!-- 留言板 -->
+		<div id="Container" >
+			<div class="ds-thread" data-thread-key="liuyan" data-title="思思的小站" data-url="https://liebelt.github.io/"></div>
+			<div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"></div>
+			<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+			<script type="text/javascript" src="assets/js/liuyan.js"></script>
+			<!-- 多说公共JS代码 end -->
+ 		</div>
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
@@ -396,36 +409,12 @@
 				</ul>
 				<div class="copyright">
 					<ul class="menu">
-						<li>&copy; liebelt. All rights reserved.Design: <a href="https://liebelt.github.io">liebelt</a></li>
+						<li>&copy; liebelt. All rights reserved.Design: <a href="tools.html">liebelt</a></li>
 					</ul>
 				</div>
 			</section>
-			<!-- 留言板 -->
-			<div class="ds-thread" data-thread-key="liuyan" data-title="思思的小站" data-url="https://liebelt.github.io/"></div>
-			<div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"></div>
-			<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-			<script type="text/javascript">
-			var duoshuoQuery = {short_name:"liebelt"};
-				(function() {
-					var ds = document.createElement('script');
-					ds.type = 'text/javascript';ds.async = true;
-					ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-					ds.charset = 'UTF-8';
-					(document.getElementsByTagName('head')[0] 
-					 || document.getElementsByTagName('body')[0]).appendChild(ds);
-				})();
-				</script>
-			<!-- 多说公共JS代码 end -->
 			
-			
-			
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+
 
 	</body>
 </html>
