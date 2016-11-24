@@ -1,118 +1,111 @@
 /*
-	Tessellate by HTML5 UP
+	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
-
-	.image {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.image img {
-			position: relative;
-			-ms-behavior: url("assets/js/ie/PIE.htc");
-		}
-
-	.button {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-/* Section/Article */
-
-	section > .last-child,
-	article > .last-child,
-	section.last-child,
-	article.last-child {
-		margin-bottom: 0;
-	}
-
-/* List */
-
-	ul.icons a {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-		border: solid 1px #ddd;
-	}
-
 /* Form */
 
-	form input.text,
+	form input[type="text"],
+	form input[type="email"],
+	form input[type="password"],
 	form select,
-	form .select,
 	form textarea {
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
-		border: solid 1px #ddd;
-		line-height: 1.25em;
-	}
-
-	form select {
-		position: relative;
-	}
-
-		form select option {
-			color: #000;
-		}
-
-	form .select select {
-		width: 100%;
-	}
-
-	form .select:before {
-		display: none;
+		border: solid 1px;
 	}
 
 /* Button */
 
-	.button.alt {
-		border: solid 1px #ddd;
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	.button,
+	button {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-/* Feature Icon */
+		input[type="button"].down,
+		input[type="submit"].down,
+		input[type="reset"].down,
+		.button.down,
+		button.down {
+			text-indent: 0;
+		}
 
-	.feature-icon {
-		padding-bottom: 0;
+/* Footer */
+
+	#footer {
+		color: #fff;
 	}
 
-		.feature-icon:before, .feature-icon:after {
-			display: none;
-		}
+/* Intro */
 
-		.feature-icon .icon {
-			position: relative;
-			-ms-behavior: url("assets/js/ie/PIE.htc");
-			background: #fff;
-		}
-
-			.feature-icon .icon:before {
-				font-size: 6em;
-				color: #3d3d3d;
-			}
-
-/* Header */
-
-	#header {
-		background-image: url("../../images/header.jpg");
-		background-size: cover;
-		background-position: auto;
-		background-repeat: no-repeat;
+	#intro {
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		background: url("../../images/intro.jpg");
+		background-size: cover;
 	}
 
-/* Main Sections */
+		#intro .content {
+			position: relative;
+			z-index: 1;
+		}
 
-	.main > .content.style1 {
-		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#412e4c, endColorstr=#a56365);
+		#intro:after {
+			content: '';
+			background: url("images/overlay.png");
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/* One */
+
+	#one {
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		background: url("../../images/one.jpg");
+		background-size: cover;
 	}
 
-	.main > .content.style2 {
-		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#85505f, endColorstr=#384955);
+		#one .content {
+			position: relative;
+			z-index: 1;
+		}
+
+		#one.left:before, #one.right:after {
+			content: '';
+			background: url("images/overlay.png");
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/* Two */
+
+	#two {
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		background: url("../../images/two.jpg");
+		background-size: cover;
 	}
 
-	.main > .content.style3 {
-		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#2f394e, endColorstr=#5f796b);
-	}
+		#two .content {
+			position: relative;
+			z-index: 1;
+		}
+
+		#two.left:before, #two.right:after {
+			content: '';
+			background: url("images/overlay.png");
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
